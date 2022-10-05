@@ -66,10 +66,10 @@ class Notebook:
         try:
             while True:
                 print('Co chcesz zrobić?')
-                print('1-Nowy dokument')
+                print('1.Nowy dokument')
                 print('2. Nadpisz stary dokument')
                 print('3. Odczytać dokument')
-                print('x- Wyjście')
+                print('X. Wyjście')
                 choice=input().upper()
                 if choice=='X':
                     print('Do widzenia!')
@@ -90,7 +90,7 @@ class Notebook:
 
 notebook1=Notebook('notebook')
 
-notebook1.menu()
+notebook1.menu() #wywołanie programu
 
 
 
